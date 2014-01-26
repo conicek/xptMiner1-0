@@ -465,8 +465,8 @@ void xptMiner_xptQueryWorkLoop()
 	Sleep(3);
 	if(minerSettings.requestTarget.donationPercent > 0.1f)
 	{
-		xptClient_addDeveloperFeeEntry(xptClient, "MCkWVoQ5NeR8UFymjKyCVkSaEXjCTieGAv", getFeeFromDouble(minerSettings.requestTarget.donationPercent / 2.0)); 
-		xptClient_addDeveloperFeeEntry(xptClient, "M9dHxqTf3mssuyf7g7NDYchtEunta6zcEB", getFeeFromDouble(minerSettings.requestTarget.donationPercent / 2.0));
+		xptClient_addDeveloperFeeEntry(xptClient, "MK6n2VZZBpQrqpP9rtzsC9PRi5t1qsWuGc", getFeeFromDouble(minerSettings.requestTarget.donationPercent / 2.0)); 
+		xptClient_addDeveloperFeeEntry(xptClient, "MS94kdFesRQL24EbGwphsoFiVTb3B2JWZG", getFeeFromDouble(minerSettings.requestTarget.donationPercent / 2.0));
 	}
 	uint32 timerPrintDetails = getTimeMilliseconds() + 8000;
 	while( true )
